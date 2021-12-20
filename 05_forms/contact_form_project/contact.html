@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <div>
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name">
+      </div>
+      <div>
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name">
+      </div>
+      <div>
+        <label for="email">Email Address</label>
+        <input type="text" name="email" id="email" placeholder="user@example.com">
+      </div>
+      <div>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city">
+      </div>
+      <div>
+        <label for="state">State</label>
+        <select name="state" id="state">
+          <option>AK</option>
+          <option>AL</option>
+          <option>AR</option>
+          <option>AZ</option>
+          <option>CA</option>
+          <option>CO</option>
+          <option>CT</option>
+          <option>DC</option>
+          <option>DE</option>
+          <option>FL</option>
+          <option>GA</option>
+          <option>HI</option>
+          <option>IA</option>
+          <option>ID</option>
+          <option>IL</option>
+          <option>IN</option>
+          <option>KS</option>
+          <option>KY</option>
+          <option>LA</option>
+          <option>MA</option>
+          <option>MD</option>
+          <option>ME</option>
+          <option>MI</option>
+          <option>MN</option>
+          <option>MO</option>
+          <option>MS</option>
+          <option>MT</option>
+          <option>NC</option>
+          <option>ND</option>
+          <option>NE</option>
+          <option>NH</option>
+          <option>NJ</option>
+          <option>NM</option>
+          <option>NV</option>
+          <option>NY</option>
+          <option>OH</option>
+          <option>OK</option>
+          <option>OR</option>
+          <option>PA</option>
+          <option>RI</option>
+          <option>SC</option>
+          <option>SD</option>
+          <option>TN</option>
+          <option>TX</option>
+          <option>UT</option>
+          <option>VA</option>
+          <option>VT</option>
+          <option>WA</option>
+          <option>WI</option>
+          <option>WV</option>
+          <option>WY</option>
+        </select>
+      </div>
+      <div>
+        <label for="zip">Zip Code</label>
+        <input type="text" name="zip" id="zip" pattern="[0-9]{5}" placeholder="12145">
+      </div>
+      <div>
+        <label for="favorite_color">Which of these colors do you like best?</label>
+        <select name="favorite_color" id="favorite_color">
+          <option selected>Red</option>
+          <option>Orange</option>
+          <option>Yellow</option>
+          <option>Green</option>
+          <option>Blue</option>
+          <option>Purple</option>
+          <option>Pink</option>
+          <option>Black</option>
+          <option>White</option>
+        </select>
+      </div>
+      <div>
+        <label for="technologies">Which web technologies would you like to learn?</label>
+        <select name="technologies" id="technologies" multiple size="5">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>Javascript</option>
+          <option>Ruby</option>
+          <option>Rails</option>
+          <option>Node.js</option>
+          <option>React</option>
+          <option>Angular</option>
+        </select>
+      </div>
+      <label for="comments">Comments:</label>
+      <textarea name="comments" id="comments" cols="80" rows="6"></textarea>
+      <input type="hidden" name="timestamp" id="timestamp" value="2021-12-19">
+      <div>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
